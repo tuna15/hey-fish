@@ -18,3 +18,5 @@ app.get('/map', (req, res) => {
 app.listen(port, () => {
   console.log(`server is up on port ${port}`);
 });
+
+module.exports.app = app;
